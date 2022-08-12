@@ -124,21 +124,23 @@ a:hover{
 
 .cr{
   margin: 0 auto 0 auto;
-  
+
   position: relative;
   color: #FFF9CA;
   font-size: 1rem;
 }
 
-.linkedin-logo{
+.btn{
   display:inline-block;
+}
+
+.linkedin-logo{
   max-width: 60%;
   max-height: 60%;
   margin: 1rem;
 }
 
 .github-logo{
-  display:inline-block;
   max-width: 60%;
   max-height: 60%;
   margin: 1rem;
