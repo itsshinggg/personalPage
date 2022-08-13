@@ -1,15 +1,14 @@
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: Courier New, serif;
-  font-size: 120%
+  font-size: 120%;
 }
 
 .top-container {
-  background-color: #FFF9CA;
+  background-color: #fff9ca;
   position: relative;
   padding-top: 100px;
-
 }
 
 .middle-container {
@@ -21,47 +20,48 @@ body{
   bottom: none;
   width: 100%;
   height: 150px;
-  background-color: #FEC260;
+  padding-bottom: 70px;
+  background-color: #fec260;
 }
 
-h1{
+h1 {
   font-size: 5.625rem;
   margin-top: center;
   margin: 50px 0px auto;
-  font-family: 'Caveat', cursive;
-  color: #FFA500;
+  font-family: "Caveat", cursive;
+  color: #ffa500;
 }
 
-h2{
+h2 {
   margin-bottom: 40px;
 }
-h3{
-  color: #0096FF;
+h3 {
+  color: #0096ff;
 }
 
-p{
+p {
   line-height: 2;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-a:hover{
-  color: #0096FF;
+a:hover {
+  color: #0096ff;
 }
 
-.intro{
+.intro {
   font-weight: unset;
   font-size: 1.2rem;
 }
 
-.bio{
-    width: 50%;
-    margin: auto;
+.bio {
+  width: 50%;
+  margin: auto;
 }
 
-.skill-row{
+.skill-row {
   width: 60%;
   margin: 70px auto;
   text-align: left;
@@ -74,18 +74,18 @@ a:hover{
   border-bottom-style: none;
   border-right-style: none;
   border-left-style: none;
-  border-block-color: #FEC260;
+  border-block-color: #fec260;
   width: 15%;
   margin: 100px auto;
 }
 
-.top-cloud{
-  position:absolute;
+.top-cloud {
+  position: absolute;
   right: 150px;
   top: 55px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 90px;
   top: 335px;
@@ -117,31 +117,21 @@ a:hover{
   margin-left: 30px;
 }
 
-.contact-me{
+.contact-me {
   width: 40%;
-  margin:40px auto;
+  margin: 40px auto;
 }
 
-.cr{
-  margin: 0 auto 0 auto;
-
+.cr {
+  margin: 0 auto;
+  padding-bottom: 2rem;
   position: relative;
-  color: #FFF9CA;
+  color: #fff9ca;
   font-size: 1rem;
 }
 
-.btn{
-  display:inline-block;
-}
-
-.linkedin-logo{
-  max-width: 60%;
-  max-height: 60%;
-  margin: 1rem;
-}
-
-.github-logo{
-  max-width: 60%;
-  max-height: 60%;
-  margin: 1rem;
+.logo {
+  margin: 2rem 1rem;
+  width: 5%;
+  height: auto;
 }
