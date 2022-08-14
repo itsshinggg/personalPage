@@ -1,27 +1,26 @@
 "use strict";
+const myName = document.querySelector("h1");
 
-
-document.querySelector("h1").addEventListener("mouseover", function(){
-  console.log("Yes.")
-  document.querySelector("h1").style.color = "#3AB0FF";
-})
-
-document.querySelector(".linkedin").addEventListener('mouseover', function(){
-    document.querySelector(".linkedin").style.width = "7%";
-  });
-
-document.querySelector(".linkedin").addEventListener('mouseleave', function(){
-  document.querySelector(".linkedin").style.width = "5%";
-})
-
-document.querySelector(".github").addEventListener('mouseover', function(){
-    document.querySelector(".github").style.width = "7%";
-  });
-
-document.querySelector(".github").addEventListener('mouseleave', function(){
-  document.querySelector(".github").style.width = "5%";
+myName.addEventListener("mouseover", function () {
+  myName.style.color = "#3AB0FF";
 });
 
+myName.addEventListener("mouseleave", function () {
+  myName.style.color = "#ffa500";
+});
+
+const logos = document.querySelectorAll(".logo");
+
+for (let i = 0; i < logos.length; i++)
+  logos[i].addEventListener("mouseover", function () {
+    logos[i].classList.add("scale-up");
+  });
+
+for (let i = 0; i < logos.length; i++)
+  logos[i].addEventListener("mouseleave", function () {
+    logos[i].classList.remove("scale-up");
+  });
 
 //TODO
-  // reduce the repetition
+// Resume button = learn positioning better
+// overlay
