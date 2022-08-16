@@ -100,16 +100,6 @@ a:hover {
   width: 300px;
 }
 
-.rounded_skill {
-  object-fit: cover;
-  border-radius: 60%;
-  height: 200px;
-  width: 200px;
-  float: left;
-  margin-right: 30px;
-  margin-bottom: 50px;
-}
-
 .rounded_x {
   object-fit: cover;
   border-radius: 60%;
@@ -120,21 +110,19 @@ a:hover {
 }
 
 /* Skills & Wosks Section */
-.skills-work-title {
-  text-align: center;
-}
-
 .resume-button {
+  position: relative;
+  float: right;
+  right: 50rem;
+  bottom: 0.5rem;
   display: inline-block;
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 0.5rem 0.5rem;
-  margin: 3rem 1rem;
   border: none;
   background-color: #ffa500;
   color: white;
   border-radius: 1rem;
   cursor: pointer;
-  margin-left: 5rem;
 }
 
 .resume {
@@ -180,16 +168,54 @@ a:hover {
   z-index: 5;
 }
 
+.rounded_skill {
+  object-fit: cover;
+  border-radius: 60%;
+  height: 200px;
+  width: 200px;
+  float: left;
+  position: relative;
+  left: 25rem;
+  margin-top: 50px;
+}
+
+.skills-work-title {
+  text-align: center;
+}
+
+.skills-table {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 40px;
+  border-collapse: separate;
+  text-align: center;
+}
+
+.skills-contents {
+  margin: 0;
+}
+
+.aws-cell {
+  width: 130px;
+  height: 130px;
+}
+
+.aws-logo {
+  height: 100%;
+  width: 100%;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .my-work {
   width: 70%;
   margin: 40px auto;
-}
-
-table {
-  margin-left: auto;
-  margin-right: auto;
-  border-spacing: 10px;
-  border-collapse: separate;
 }
 
 .portfolio-table {
